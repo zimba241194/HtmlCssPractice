@@ -1,0 +1,82 @@
+h1,h2,h3,p {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+h1,h2,h3 {
+    margin-top: 1.5em;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+th,tr,td {
+    border: 1px solid;
+}
+
+figure {
+    padding-right: 15%;
+    float: right;
+}
+
+.tables {
+    margin: 0px 40% 20px 15%;
+    float: left;
+    border: 1px solid;
+}
+
+.list {
+padding-left: 17%;
+}
+
+.content {
+    margin-left: 15%;
+}
+
+.picture1 {
+    width: 300px;
+    height:200px;
+}
+
+.picture3 {
+    width: 300px;
+    height:200px;
+}
+
+.picture4 {
+    width: 300px;
+    height:200px;
+}
+
+.picture5 {
+    width: 300px;
+    height:200px;
+}
+
+.picture8 {
+    width: 300px;
+    height:200px;
+}
+
+.figTable {
+    float: left;
+    margin: 0px 40% 0px 10%;
+    width: 700px;
+    height: 100%;
+}
+
+.picture9 {
+    width: 200px;
+    height:300px;
+}
