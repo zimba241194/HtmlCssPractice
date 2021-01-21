@@ -30,8 +30,12 @@ figure {
     float: right;
 }
 
+caption {
+    caption-side: bottom;
+}
+
 .tables {
-    margin: 0px 40% 20px 15%;
+    margin: 0px 60% 20px 15%;
     float: left;
     border: 1px solid;
 }
@@ -67,13 +71,6 @@ padding-left: 17%;
 .picture8 {
     width: 300px;
     height:200px;
-}
-
-.figTable {
-    float: left;
-    margin: 0px 40% 0px 10%;
-    width: 700px;
-    height: 100%;
 }
 
 .picture9 {
