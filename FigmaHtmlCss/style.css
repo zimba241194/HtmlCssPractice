@@ -1,0 +1,224 @@
+/*Fonts*/
+
+* {
+    font-family: Roboto;
+}
+
+.headingText, div.theProblemBlock h1, div.ppcBlock h1, div.theTeamBlock h1 {
+    color: #007765;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    text-align: center;
+    margin: 0;
+    padding-top: 48px;
+}
+
+.paragraphText, div.theProblemBlock p, div.ppcBlock p {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+    padding: 0 18% 0 18%;
+}
+
+.menuFont, div.menuBlock p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.PnetHere {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 83.38px;
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+}
+
+.lastP {
+    padding: 0 18% 92px 18%;
+}
+
+.strongP {
+    font-weight: 700;
+}
+
+.italicP{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.heroText {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 56.25px;
+    text-align: center;
+    margin: 0;
+    padding: 150px 25% 0 25%;
+}
+
+.footerFont {
+    color : #FFFFFF ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+    }
+
+.teamNames, div.theTeamBlock h2 {
+    color :#007765;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+    margin: 12px 0 2px 0;
+    caption-side: bottom;
+    padding: 0;
+    }
+        
+.teamPosition, div.theTeamBlock h3 {
+    color : #000000 ;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21.09px;
+    margin: 0;
+    caption-side: bottom;
+    }
+/*Header*/
+
+.header {
+    display: block;
+    height: 84px;
+    width: 100%;
+    background-color: #007765;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    position: relative;
+    display: inline;
+    left: 20%;
+}
+
+.logo1 {
+    display: inline-block;
+    position: relative;
+    top:20px;
+}
+
+.logo2 {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: -49px;
+}
+
+.logoPic1 {
+    width: 45px;
+    height: 45px;
+}
+
+.logoPic2 {
+    width: 184px;
+    height: 45px;
+}
+
+.menuBlock {
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 15%;
+}
+
+.menu, div.menuBlock div {
+    display: inline-block
+}
+
+.PnetHere {
+    color: #FFFFFF;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    display: block;
+    background-image: url(img/jumbotron.png);
+    background-size: cover;
+    height: 403px;
+    width: 100%;
+}
+
+
+/*The Problem Block*/
+.theProblemBlock {
+ height: 719px;
+ Width : 100%;
+ background-color: #EEEEEE;
+}
+
+/*Hero*/
+
+.hero {
+    display: block;
+    background-image: url(img/hero.svg);
+    background-size: cover;
+    height: 483px;
+    width: 100%;
+}
+
+
+
+/*PPC*/
+
+.ppcBlock {
+    height: 604px;
+    Width : 100%;
+    background-color: #FFFFFF;
+}
+
+.ppcLogo {
+float: left;
+margin: 32px 48px 10px 10px;
+padding: 0 0 0 18%;  
+}
+
+/*The team*/
+
+.theTeamBlock {
+height: 845px;
+width : 100%;
+background-color: #EEEEEE;
+}
+
+.photoBlock {
+width: 60%;
+margin: 0 auto;
+padding-top: 56px;  
+}
+
+.workers, div.photoBlock div {
+display: inline-block;
+width : 33.1%;
+text-align: center;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 176px;
+    background-color: #333333;
+}
+
+.footerText {
+width: 25%;
+height: 64px;
+margin: 0 auto;
+padding-top: 25px;
+}
