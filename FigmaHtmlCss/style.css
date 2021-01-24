@@ -45,9 +45,9 @@
     font-weight: 700;
 }
 
-.italicP{
-    font-style: italic;
-    font-weight: 500;
+.italicP {
+font-style: italic;
+font-weight: 500;
 }
 
 .heroText {
@@ -199,7 +199,9 @@ background-color: #EEEEEE;
 .photoBlock {
 width: 60%;
 margin: 0 auto;
-padding-top: 56px;  
+padding-top: 56px; 
+display:flex;
+flex-wrap: wrap; 
 }
 
 .workers, div.photoBlock div {
