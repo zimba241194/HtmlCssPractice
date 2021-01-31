@@ -1,0 +1,19 @@
+.menuContainer {
+    display: inline-flex;
+    width: 30%;
+}
+
+.upperMenu,
+nav.menuContainer ul li {
+    display: inline;
+}
+
+.hidingMenu,
+nav.menuContainer ul li ul {
+    display:inline-block;
+}
+
+.hidingMenuItems,
+nav.menuContainer ul li ul {
+    display:block;
+}
