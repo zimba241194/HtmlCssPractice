@@ -1,31 +1,57 @@
-.logo, div.LOGO h2, div.LOGO h3 {
+.logo, 
+div.LOGO h2, div.LOGO h3 {
     font-family: 'Bebas Neue';
     margin: 0;
     text-align: center;
     color: white;
 }
 
-.logoFont, div.LOGO h2  {
+.logoFont, 
+div.LOGO h2  {
     padding: 15px 0 0 0;
     line-height: 0.7;
     font-size: 72px;
 }
 
-.logoFont, div.LOGO h3 {
+.logoFont, 
+div.LOGO h3 {
     padding: 0;
     line-height: 0.85;
     font-size: 56px;
 }
 
-.menuFont, div.MENU h3 {
+.menuFont, 
+nav ul li a {
     font-family: 'Bebas Neue';
     color: white;
     text-align: center;
-    font-size: 30px;
+    vertical-align: middle;
+    font-size: 34px;
 }
 
-.bodyFont, div.BODY div h1 {
+.BodyHeaderText,
+div.BodyHEADER h1 {
+    font-family: 'Bebas Neue';
+    color: white;
+    font-style: italic;
+    font-size: 52px;
+    padding: 0;
+    text-align: center;
+}
+
+
+.bodyFont, 
+div.BodyBIKES div h1 {
     font-family: 'Bebas Neue';
     color: white;
     font-style: italic;
 }
+
+.partsFont,
+div.bodyPARTS div h1 {
+    font-family: 'Bebas Neue';
+    color: white;
+    font-style: italic;
+}
+
+

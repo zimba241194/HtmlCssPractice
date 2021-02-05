@@ -19,17 +19,139 @@
     height: 100px;
 }
 
-.notDropped {
-    display: inline-flex;
-    width: 40%;
+/*MENU*/
+.noUL,
+nav ul {
+    padding-inline-start: 0px;
+    list-style: none;
 }
 
-.BODY {
+.noLI,
+nav li {
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    width: 35%;
+    height: 100%;
+    padding-right: 10%;
+
+}
+
+.menuBlock {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.Button {
+    width: 30%;
+}
+
+.menuButtons,
+nav ul a.menuButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px white solid;
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 100%;
+    height: 90px;
+    text-decoration: none;
+}
+
+.subBlocks,
+nav ul li ul.subMenu {
+    position: relative;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.subButtons,
+nav ul li ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 100%;
+    height: 65px;
+    text-decoration: none;
+}
+
+.menuNotBorded,
+nav ul li:hover a.menuButton {
+    border-bottom: none;
+    background-color: rgba(24, 24, 24, 0.856);
+    transition-duration: .4s;
+}
+
+.subMenuVisible,
+nav ul li:hover .subMenu {
+    position: relative;
+    animation-name: MenuDown;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+@keyframes MenuDown {
+    0% {
+        -webkit-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+
+    }
+
+    100% {
+        -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+}
+
+.subMenuBorderLastCh,
+nav ul li:hover .subMenu:last-child {
+    border-bottom: 1px white solid;
+}
+
+.subMenuButtonsAnim,
+nav ul li ul a:hover {
+    background-color: rgba(65, 65, 65, 0.856);
+    transition-duration: .2s;
+}
+
+/*MENU END*/
+
+/*BODY BIKES*/
+.BodyHEADER {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.BodyBIKES {
     display: inline-flex;
     width: 100%;
     flex-flow: row wrap;
     justify-content: space-around;
-    background-color:rgb(12, 12, 12);
+    background-color: rgb(12, 12, 12);
 }
 
 
@@ -37,31 +159,83 @@
     margin-top: 30px;
 }
 
+.bottomMargin {
+    margin-bottom: 30px;
+}
+
 
 .bodyBlock,
-div.BODY div {
-    display:flex;
+div.BodyBIKES div {
+    display: flex;
     width: 47%;
+    border-radius: 20px;
 }
 
 .bodyBlockShadow,
-div.BODY div:hover {
+div.BodyBIKES div:hover {
     box-shadow: 0px 0px 10px 2px white;
-    border-radius: 20;
-    transition: .7s;
+    border-radius: 20px;
+    transition: .5s;
 }
 
 .h1Position,
-div.BODY div h1 {
+div.BodyBIKES div h1 {
     position: relative;
     right: 100px;
     top: 10px;
 }
 
 .imgSize,
-div.BODY div img {
+div.BodyBIKES div img {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+/*BODY BIKES END*/
+
+/*BODY PARTS*/
+
+.bodyLimiter {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.bodyPARTS {
+    display: flex;
+    width: 200%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: rgb(12, 12, 12);
+}
+
+.partsBLOCK,
+div.bodyPARTS div {
+    display: flex;
+    width: 22%;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.bodyBlockShadow,
+div.bodyPARTS div:hover {
+    box-shadow: 0px 0px 10px 2px white;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.imgSizeParts,
+div.bodyPARTS div img {
+    width: 100%;
+}
+
+.h1PositionParts,
+div.bodyPARTS div h1 {
+    position: relative;
+    right: 100px;
+    top: -10px;
+}
+
+    /*BODY PARTS END*/

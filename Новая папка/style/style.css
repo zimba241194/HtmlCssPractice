@@ -1,19 +1,27 @@
-.menuContainer {
+nav {
     display: inline-flex;
-    width: 30%;
+    width: 45%;
 }
 
-.upperMenu,
-nav.menuContainer ul li {
-    display: inline;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.hidingMenu,
-nav.menuContainer ul li ul {
-    display:inline-block;
+nav a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    background-color: gray;
 }
 
-.hidingMenuItems,
-nav.menuContainer ul li ul {
-    display:block;
+.menuBlock {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menuBlock > li {
+    display: inline-block;
+    position: relative;
 }
