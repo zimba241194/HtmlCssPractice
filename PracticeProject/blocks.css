@@ -196,22 +196,24 @@ div.BodyBIKES div img {
 
 /*BODY PARTS*/
 
-.bodyLimiter {
-    width: 100%;
-    overflow-x: scroll;
-}
-
 .bodyPARTS {
     display: flex;
-    width: 200%;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+    width: 100%;
+    flex-flow: row wrap;
     background-color: rgb(12, 12, 12);
 }
 
-.partsBLOCK,
-div.bodyPARTS div {
+.PartsBlock {
     display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgParts,
+div.PARTS {
+    display:flex;
     width: 22%;
     height: 350px;
     margin-top: 30px;
@@ -220,22 +222,45 @@ div.bodyPARTS div {
 }
 
 .bodyBlockShadow,
-div.bodyPARTS div:hover {
+div.PARTS:hover {
     box-shadow: 0px 0px 10px 2px white;
     border-radius: 20px;
     transition: .5s;
 }
 
 .imgSizeParts,
-div.bodyPARTS div img {
+div.PARTS img {
     width: 100%;
 }
 
 .h1PositionParts,
-div.bodyPARTS div h1 {
+div.bodyPARTS div div h1 {
     position: relative;
-    right: 100px;
+    right: 90px;
     top: -10px;
 }
 
-    /*BODY PARTS END*/
+.RightButton {
+    width: 4%;
+    height: 25%;
+}
+
+.LeftButton {
+    width: 4%;
+    height: 25%;
+    transform: rotate(180deg) 
+} 
+
+.ArrowButton {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.ArrowHover,
+img.ArrowButton:hover {
+    opacity: 1.0;
+    transition: 0.5s;
+}
+
+
+/*BODY PARTS END*/
