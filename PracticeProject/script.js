@@ -14,10 +14,6 @@ window.addEventListener('DOMContentLoaded', () => {
         blocks.forEach(item => {
             item.classList.remove('PartsBlockActive');
         });
-
-        blocks.forEach(item => {
-            item.classList.remove('PartsBlockActive');
-        });
     }
 
     function showBlock (i) {
@@ -33,11 +29,14 @@ window.addEventListener('DOMContentLoaded', () => {
         const target = event.target;
 
         if (target.classList.contains('ArrowButton')) {
-            blocksButton.forEach((item, i) => {
-                if (i === 0) {
-                    hideBlock();
-                    showBlock(1);
-                }
+            blocksButton.forEach((item,i) => {
+               if (i<1) {
+                hideBlock();
+                showBlock(1);
+               } else if(i>0) {
+                hideBlock();
+                showBlock(0);
+               }
             });
         }
     });

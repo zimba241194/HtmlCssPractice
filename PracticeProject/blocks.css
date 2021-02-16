@@ -152,17 +152,15 @@ nav ul li ul a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     background-color: rgb(12, 12, 12);
+    padding: 30px 0 30px 0;
 }
 
-
-.upperMargin {
-    margin-top: 30px;
+.BikesA,
+div.ABlock a {
+    display:flex;
+    width:100%;
+    text-decoration: none;
 }
-
-.bottomMargin {
-    margin-bottom: 30px;
-}
-
 
 .bodyBlock,
 div.BodyBIKES div {
@@ -233,6 +231,12 @@ div.PARTS img {
     width: 100%;
 }
 
+.AParts,
+div.PARTS a {
+    display:flex;
+    width:100%;
+    text-decoration: none;
+}
 .h1PositionParts,
 div.bodyPARTS div div h1 {
     position: relative;
